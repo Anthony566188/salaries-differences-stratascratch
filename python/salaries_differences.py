@@ -5,4 +5,4 @@ df_eng = df[df['department'] == 'engineering']
 mkt_max_salary = df_mkt['salary'].max()
 eng_max_salary = df_eng['salary'].max()
 result = abs(mkt_max_salary - eng_max_salary)
-result
+print(result)
